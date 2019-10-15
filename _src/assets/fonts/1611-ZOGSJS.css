@@ -1,9 +1,9 @@
 @font-face {
   font-family: MADE Evolve Sans EVO;
-  src: url("MADEEvolveSansRegularEVO") format("otf");
+  src: url("MADEEvolveSansRegularEVO.otf") format("opentype");
 }
 
 @font-face {
   font-family: Apex Mk2;
-  src: url("ApexMk2-Regular.otf") format("otf");
+  src: url("ApexMk2-Regular.otf") format("opentype");
 }

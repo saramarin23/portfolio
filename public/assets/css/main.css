@@ -270,11 +270,11 @@ body {
 }
 
 @font-face {
-  font-family:MADE Evolve Sans EVO;src:url("../../assets/fonts/MADE Evolve Sans Regular EVO.otf");
+  font-family:"MADE Evolve Sans EVO";src:url("../../assets/fonts/MADE Evolve Sans Regular EVO.otf") format("opentype");
 }
 
 @font-face {
-  font-family:Apex Mk2;src:url("../../assets/fonts/ApexMk2-Regular.otf");
+  font-family:"Apex Mk2";src:url("../../assets/fonts/ApexMk2-Regular.otf") format("opentype");
 }
 
 @media (min-width: 768px) {
