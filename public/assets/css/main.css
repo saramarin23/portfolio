@@ -314,13 +314,13 @@ body {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
   .project {
     margin: 40px 0;
   }
 }
 
-@media only screen and (max-width: 367px) {
+@media all and (max-width: 367px) {
   .proj {
     width: 100%;
     padding-bottom: 30px;
