@@ -117,15 +117,40 @@ a.cta:visited {
 }
 
 .row {
-    display: flex;
-    width: 100vw;
     padding-top: 1.5rem;
+}
+
+
+.project-desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+    &_title {
+        color: $primary-color;
+        font-family: MADE Evolve Sans EVO;
+    }
+
+    &_desc {
+        color: $color-white;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
 }
 
 .project-pic {
     width: 180px;
     height: 180px;
     border-radius: 5px;
+}
+
+.proj {
+    padding-bottom: 30px;
 }
 
 
@@ -153,6 +178,12 @@ a.cta:visited {
 //Media querys
 
 @media only screen and (max-width: 367px) {
+
+    .proj {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
     .contact-details {
         border: 2px solid #ff8844;
         border-radius: 0;
@@ -172,6 +203,7 @@ a.cta:visited {
 @media (min-width: 768px) {
     .proj {
         width: 50%;
+
     }
 
     .project-desc {
@@ -181,6 +213,11 @@ a.cta:visited {
             width: 41%;
         }
     }
+
+    .row {
+        display: flex;
+    }
+
 
 }
 
