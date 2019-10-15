@@ -73,6 +73,7 @@ a.cta {
   padding: 1rem;
   border: 1px solid transparent;
   text-transform: uppercase;
+  text-decoration: none;
   color: #ffffff;
   font-weight: bold;
 }
@@ -174,6 +175,7 @@ a.cta:visited {
 .project-desc_title {
   color: #ff8844;
   font-family: MADE Evolve Sans EVO;
+  font-weight: bold;
 }
 
 .project-desc_desc {
@@ -265,6 +267,14 @@ body {
   text-align: center;
   margin: 50px 0px 0px;
   font-family: Apex Mk2, sans-serif;
+}
+
+@font-face {
+  font-family:MADE Evolve Sans EVO;src:url("../../assets/fonts/MADE Evolve Sans Regular EVO.otf");
+}
+
+@font-face {
+  font-family:Apex Mk2;src:url("../../assets/fonts/ApexMk2-Regular.otf");
 }
 
 @media (min-width: 768px) {

@@ -24,6 +24,7 @@ a.cta {
     padding: 1rem;
     border: 1px solid transparent;
     text-transform: uppercase;
+    text-decoration: none;
     color: $color-white;
     font-weight: bold;
 }
@@ -136,6 +137,7 @@ a.cta:visited {
     &_title {
         color: $primary-color;
         font-family: MADE Evolve Sans EVO;
+        font-weight: bold;
     }
 
     &_desc {
