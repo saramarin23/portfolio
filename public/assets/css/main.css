@@ -149,6 +149,11 @@ a.cta:visited {
   padding-top: 1.5rem;
 }
 
+.tech-icon {
+  padding-right: 5px;
+  color: #ffffff;
+}
+
 .project-desc {
   display: -webkit-box;
   display: -ms-flexbox;
