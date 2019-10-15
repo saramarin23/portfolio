@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     
     <head>
         <meta charset="UTF-8" />
@@ -12,22 +12,278 @@
         <div class="page">
             <header>
                 <nav>
-                    <ul class="top-bar fixed" id="navbar">
-                        <li><a href="#welcome-section">About</a>
+                    <ul class="top-bar fixed navbar">
+                        <li class="navbar_element"> <a class="navbar_link" href="#welcome-section">About</a>
 
                         </li>
-                        <li><a href="#projects">Projects</a>
+                        <li class="navbar_element"> <a class="navbar_link" href="#projects">Projects</a>
 
                         </li>
-                        <li><a href="#contact">Contact</a>
+                        <li class="navbar_element"> <a class="navbar_link" href="#contact">Contact</a>
 
                         </li>
                     </ul>
                 </nav>
             </header>
-            <main class="page__main">Main</main>
-            <footer>© 2019</footer>
+            
+            <body>
+                <div id="welcome-section" class="welcome_section">
+                     <h1 class="welcome_section-name">Sara Marín</h1>
+
+                    <div class="buttons"> <a href="#projects" id="portfolio-button" class="cta">my projects</a>
+
+                        <a
+                        href="#contact" class="cta">get in touch</a>
+                    </div>
+                    <section id="arrow-down" class="demo">
+                        <!--Las flechas chulas que no funcionan--> <a class="scroll-link" href="#projects"><span class="arrow"></span></a>
+
+                    </section>
+                </div>
+                <div id="projects" class="projects_container">
+                    <div class="portfolio">
+                         <h2 class="portfolio-title">My portfolio</h2>
+
+                        <div class="row row1">
+                            <div class="proj proj1">
+                                <div class="project-desc">
+                                    <div class="icons-project"> <i class="tech-icon fab fa-html5"></i
+              ><i class="tech-icon fab fa-sass"></i
+              ><i class="tech-icon fab fa-git-alt"></i>
+
+                                    </div>
+                                     <h3 class="project-desc_title">Anonymous Proxy</h3>
+
+                                    <p class="project-desc_desc">Responsive website</p>
+                                    <div> <a href="http://beta.adalab.es/m1-evaluacion-final-saramarin23/" target="_blank"
+                                        class="button-project">Demo</a
+              >
+              <a
+                href="https://github.com/Adalab/m1-evaluacion-final-saramarin23"
+                target="_blank"
+                class="button-project"
+                >Source</a
+              >
+            </div>
+          </div>
+          <div class="project-img">
+            <img
+              class="project-pic"
+              src="../assets/images/anonymous.png"
+              alt="project"
+            />
+          </div>
         </div>
+        <div class="proj proj2">
+          <div class="project-desc">
+            <div class="icons-project">
+              <i class="tech-icon fab fa-html5"></i
+              ><i class="tech-icon fab fa-js"></i>
+            </div>
+            <h3 class="project-desc_title">Rolling die</h3>
+            <p class="project-desc_desc">
+              Roll a D6 die. Made with JavaScript.
+            </p>
+            <div>
+              <a
+                href="https://saramarin23.github.io/Rolling_die/"
+                target="_blank"
+                class="button-project"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/saramarin23/Rolling_die"
+                target="_blank"
+                class="button-project"
+                >Source</a
+              >
+            </div>
+          </div>
+          <div class="project-img">
+            <img
+              class="project-pic"
+              src="https://cdn1.iconfinder.com/data/icons/sin-city-memories/128/dice-one-red-512.png"
+              id="die-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row row2">
+        <div id="proj3" class="proj proj3"> 
+          <div class="project-desc">
+            <div class="icons-project">
+              <i class="tech-icon fab fa-sass"></i
+              ><i class="tech-icon fab fa-gulp"></i
+              ><i class="tech-icon fab fa-git-alt"></i>
+            </div>
+            <h3 class="project-desc_title">Atlas</h3>
+            <p class="project-desc_desc">
+              First project in Adalab, using Gulp and Sass.
+            </p>
+            <div>
+              <a
+                href="https://saramarin23.github.io/Atlas/"
+                target="_blank"
+                class="button-project"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/saramarin23/Atlas"
+                target="_blank"
+                class="button-project"
+                >Source</a
+              >
+            </div>
+          </div>
+          <div class="project-img">
+            <img
+              class="project-pic"
+              src="../assets/images/atlas.png"
+              id="atlas"
+            />
+          </div>
+        </div>
+        <div class="proj proj4">
+          <div class="project-desc">
+            <div class="icons-project">
+              <i class="tech-icon fab fa-js"></i
+              ><i class="tech-icon fab fa-react"></i
+              ><i class="tech-icon fab fa-git-alt"></i>
+            </div>
+            <h3 class="project-desc_title">Awesome profile cards</h3>
+            <p class="project-desc_desc">
+              SPA of virtual business cards creator. React refactorized with
+              heredated code
+            </p>
+            <div>
+              <a
+                href="http://beta.adalab.es/grace-m3-reactivas/#/"
+                target="_blank"
+                class="button-project"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/Adalab/grace-m3-reactivas"
+                target="_blank"
+                class="button-project"
+                >Source</a
+              >
+            </div>
+          </div>
+          <div class="project-img">
+            <img
+              class="project-pic"
+              src="../assets/images/cards.png"
+              id="cards"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row row3">
+        <div class="proj proj5">
+          <div class="project-desc">
+            <div class="icons-project">
+              <i class="tech-icon fab fa-react"></i
+              ><i class="tech-icon fab fa-npm"></i>
+            </div>
+
+            <h3 class="project-desc_title">Rick and Morty finder</h3>
+            <p class="project-desc_desc">
+              Made with React and using filters.
+            </p>
+            <div class="project_links">
+              <a
+                href="http://beta.adalab.es/m3-evaluacion-final-saramarin23/#/"
+                target="_blank"
+                class="button-project"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/saramarin23/m3-evaluacion-final-saramarin23"
+                target="_blank"
+                class="button-project"
+                >Source</a
+              >
+            </div>
+          </div>
+          <div class="project-img">
+            <img
+              class="project-pic"
+              src="../assets/images/rick.png"
+              alt="Rick & Morty project"
+            />
+          </div>
+        </div>
+        <div class="proj proj6">
+          <div class="project-desc">
+            <div class="icons-project">
+              <i class="tech-icon fab fa-react"></i
+              ><i class="tech-icon fab fa-npm"></i>
+            </div>
+
+            <h3 class="project-desc_title">Holidays manager - Accenture</h3>
+            <p class="project-desc_desc">
+              Made with React and three different APIs.
+            </p>
+            <div>
+              <a
+                href="http://beta.adalab.es/g-m4-AquaSquad/#/"
+                target="_blank"
+                class="button-project"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/saramarin23/g-m4-AquaSquad"
+                target="_blank"
+                class="button-project"
+                >Source</a
+              >
+            </div>
+          </div>
+          <div class="project-img">
+            <img
+              class="project-pic"
+              src="../assets/images/holidays.png"
+              alt="accenture project"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="contact">
+    <div class="contact_div">
+      <h4 class="contact_div-title">Contact</h4>
+    </div>
+    <a
+      id="linkedin-link"
+      href="https://www.linkedin.com/in/saramarin/"
+      target="_blank"
+      class="contact-details"
+    >
+      <i class="contact-icon fab fa-linkedin-in"></i
+    ></a>
+ <a id="github-link" href="https://github.com/saramarin23" target="_blank"
+                                        class="contact-details">
+      <i class="contact-icon fab fa-github"></i>
+    </a>
+ <a id="twitter-link" href="https://twitter.com/sara__marin" target="_blank"
+                                        class="contact-details">
+      <i class="contact-icon fab fa-twitter"></i>
+    </a>
+ <a id="fcc-link" href="https://www.freecodecamp.org/saiyiya" target="_blank"
+                                        class="contact-details">
+      <i class="contact-icon fab fa-free-code-camp"></i>
+    </a>
+ <a href="mailto:example@example.com" class="contact-details">
+      <i class="contact-icon far fa-envelope"></i
+    ></a>
+
+                                    </div>
+            </body>
+            <footer>© 2019</footer>
+            </div>
     </body>
 
 </html>

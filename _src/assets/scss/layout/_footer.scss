@@ -1,0 +1,11 @@
+footer {
+    padding: 20px 20px 10px;
+
+    background: linear-gradient(to bottom, $second-gradient 0%, $navbar-color 80%);
+    color: $color-white;
+    line-height: 40px;
+}
+
+footer a {
+    color: $color-white;
+}
