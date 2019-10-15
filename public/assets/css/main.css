@@ -209,6 +209,21 @@ a.cta:visited {
   font-size: 24px;
 }
 
+.contact-icon {
+  color: white;
+  text-align: right;
+  margin: 20px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.contact-icon:hover {
+  cursor: pointer;
+  color: #ff8844;
+  -webkit-transform: scale(2.5);
+  transform: scale(2.5);
+}
+
 .navbar {
   top: 0px;
   position: fixed;

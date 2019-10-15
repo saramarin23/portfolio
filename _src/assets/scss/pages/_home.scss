@@ -175,6 +175,19 @@ a.cta:visited {
             font-size: 24px;
         }
     }
+
+    &-icon {
+        color: white;
+        text-align: right;
+        margin: 20px;
+        transform: scale(1.5);
+
+        &:hover {
+            cursor: pointer;
+            color: $primary-color;
+            transform: scale(2.5);
+        }
+    }
 }
 
 
@@ -183,7 +196,6 @@ a.cta:visited {
 //Media querys
 
 @media only screen and (max-width: 367px) {
-
     .proj {
         width: 100%;
         padding-bottom: 30px;
@@ -222,8 +234,6 @@ a.cta:visited {
     .row {
         display: flex;
     }
-
-
 }
 
 @media (min-width: 1200px) {
@@ -239,6 +249,4 @@ a.cta:visited {
     .proj2 {
         float: right;
     }
-
-
 }
