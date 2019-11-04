@@ -4,6 +4,7 @@
     background-attachment: fixed;
     background-size: cover;
     height: 60vh;
+    font-size: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,14 +14,19 @@
 
     &-name {
         color: $color-white;
-        font-size: 60px;
+        font-size: 64px;
     }
+}
+
+a,
+a:active {
+    transition: 200ms;
 }
 
 a.cta {
     background: $primary-color;
-    font-family: MADE Evolve Sans EVO;
     font-weight: 100;
+    font-size: 18px;
     padding: 1rem;
     border: 1px solid transparent;
     text-transform: uppercase;
@@ -107,7 +113,7 @@ a.cta:visited {
 
 .portfolio-title {
     color: $color-white;
-    font-family: Apex Mk2;
+    // font-family: Apex Mk2;
     text-transform: uppercase;
     padding-bottom: 2rem;
 }
@@ -136,7 +142,7 @@ a.cta:visited {
 
     &_title {
         color: $primary-color;
-        font-family: MADE Evolve Sans EVO;
+        // font-family: MADE Evolve Sans EVO;
         font-weight: bold;
     }
 
@@ -222,7 +228,6 @@ a.cta:visited {
 @media (min-width: 768px) {
     .proj {
         width: 50%;
-
     }
 
     .project-desc {
@@ -230,6 +235,7 @@ a.cta:visited {
 
         &_desc {
             width: 41%;
+            font-family: "Comfortaa";
         }
     }
 

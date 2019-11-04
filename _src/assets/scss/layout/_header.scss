@@ -4,11 +4,12 @@
     background: $navbar-color;
     width: 100%;
     margin: 0px 0px;
-    text-align: right;
+    // text-align: right;
 
     &_element {
         display: inline-block;
-        padding-right: 15px;
+        // padding-right: 15px;
+        margin: 55px;
         margin-bottom: 18px;
         margin-top: 15px;
     }
@@ -21,4 +22,10 @@
             color: $primary-color;
         }
     }
+}
+
+nav ul {
+    text-align: right;
+    top: 0px;
+    margin: 0px;
 }
