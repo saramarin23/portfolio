@@ -3,7 +3,7 @@
     background: $welcome-color;
     background-attachment: fixed;
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
     font-size: 32px;
     display: flex;
     flex-direction: column;
@@ -48,6 +48,14 @@ a.cta:visited {
     border: 1px solid transparent;
     color: $color-white;
     font-weight: bold;
+}
+
+.description {
+    max-width: 400px;
+    padding-top: 60px;
+    color: $color-white;
+    font-size: 20px;
+    font-family: "Comfortaa";
 }
 
 
@@ -129,6 +137,7 @@ a.cta:visited {
 .tech-icon {
     padding-right: 5px;
     color: $color-white;
+    margin-bottom: 10px;
 }
 
 
@@ -141,7 +150,6 @@ a.cta:visited {
 
     &_title {
         color: $primary-color;
-        // font-family: MADE Evolve Sans EVO;
         font-weight: bold;
     }
 
@@ -209,7 +217,7 @@ a.cta:visited {
     }
 
     .contact-details {
-        border: 2px solid #ff8844;
+        border: 2px solid $primary-color;
         border-radius: 0;
         width: 90px;
         height: 20px;

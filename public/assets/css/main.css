@@ -42,7 +42,7 @@
   background: #1c2129;
   background-attachment: fixed;
   background-size: cover;
-  height: 60vh;
+  height: 100vh;
   font-size: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -97,6 +97,14 @@ a.cta:visited {
   border: 1px solid transparent;
   color: #ffffff;
   font-weight: bold;
+}
+
+.description {
+  max-width: 400px;
+  padding-top: 60px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Comfortaa";
 }
 
 .demo a {
@@ -157,6 +165,7 @@ a.cta:visited {
 .tech-icon {
   padding-right: 5px;
   color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .project-desc {
