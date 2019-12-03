@@ -3,7 +3,11 @@
 ## Currently working on 📝
 
 - Review and widen JavaScript.
-- Learning Node.js
+- [CS50's Web Programming with Python and JavaScript](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/)
+
+## Currently reading
+
+- Clean code - Robert C. Martin.
 
 ## Completed courses
 
